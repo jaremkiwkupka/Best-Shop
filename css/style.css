@@ -22,3 +22,10 @@
     --bold: 700;
     --extra-bold: 800;
 }
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
