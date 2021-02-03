@@ -3,4 +3,22 @@
     /*fonts*/
     --openSans: 'Open Sans', sans-serif;
     --raleway: 'Raleway', sans-serif;
+
+    /*colors*/
+    --primary-color: #08A6E4;
+    --blueish-color: #07ACE6;
+    --red-color: #FB3B64;
+    --redish-color: #EB476E;
+    --green-color: #55DFB4;
+    --navyBlue-color: #13253B;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --grey-color: #A5A5A5;
+
+    /*font-weight*/
+    --light: 300;
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+    --extra-bold: 800;
 }
