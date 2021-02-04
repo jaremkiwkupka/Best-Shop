@@ -25,7 +25,60 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: var(--openSans);
+}
+a {
+    text-decoration: none;
+}
 .container {
     width: 1352px;
     margin: 0 auto;
+}
+.header {
+    width: 100vw;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+.logo {
+    font-family: var(--raleway);
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: var(--light);
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.nav__element {
+    padding: 0 26px;
+    border-color: transparent;
+}
+.nav__element:last-child {
+    padding-right: 0;
+}
+.nav__element a:hover {
+    color: var(--black-color);
+    border-bottom: 4px solid var(--primary-color);
+}
+.nav__link {
+    color: var(--grey-color);
+    font-size: 0.688rem;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+    padding: 28px 18px 22px;
+    letter-spacing: 0.1875rem;
+}
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
