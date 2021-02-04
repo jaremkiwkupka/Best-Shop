@@ -76,9 +76,39 @@ a {
     padding: 28px 18px 22px;
     letter-spacing: 0.1875rem;
 }
-.hero__container {
+.hero {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+}
+.hero__container {
+    margin-top: 130px;
+    text-align: center;
+}
+.hero__title {
+    font-family: var(--raleway);
+    font-size: 3.063rem;
+    font-weight: var(--regular);
+}
+.hero__description {
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+.hero__img {
+    width: 100vw;
+    height: auto;
+}
+.btn {
+    display: inline-block;
+    color: var(--white-color);
+    font-weight: var(--bold);
+    padding: 16px 65px;
+}
+.btn--primary {
+    background-color: var(--primary-color);
+    box-shadow: var(--primary-shadow);
+}
+.btn--large {
+    padding: 22px 155px;
+    border-radius: 40px;
 }
