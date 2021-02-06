@@ -294,3 +294,85 @@ h2 {
     height: auto;
     margin-top: 55px;
 }
+.pricing__container {
+    padding: 100px 0;
+}
+.pricing__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.pricing__boxes {
+    padding: 0 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pricing__box {
+    text-align: center;
+    border: 1px solid var(--accent-color);
+    border-radius: 18px;
+    padding: 0 70px;
+}
+.pricing__box--basic {
+    --accent-color: var(--red-color);
+}
+.pricing__box--professional {
+    --accent-color: var(--primary-color);
+    box-shadow: var(--primary-shadow);
+    flex-grow: 1;
+    margin: 0 80px;
+}
+.pricing__box--premium {
+    --accent-color: var(--green-color);
+}
+.pricing__details {
+    margin-bottom: 50px;
+}
+.pricing__type {
+    line-height: 0.125rem;
+    margin-top: 50px;
+    margin-bottom: 14px;
+    font-family: var(--raleway);
+    font-weight: var(--bold);
+    font-size: 1.313rem;
+    color: #13253B;
+}
+.pricing__price {
+    font-size: 2.875rem;
+    font-weight: var(--light);
+    padding: 20px 0;
+    color: var(--accent-color);
+}
+.pricing__limited {
+    font-family: var(--raleway);
+    font-weight: var(--bold);
+    font-size: 0.75rem;
+    color: #13253B;
+    margin-top: 5px;
+}
+.pricing__item {
+    font-size: 0.875rem;
+    padding-bottom: 20px;
+}
+.pricing__box--professional .pricing__item {
+    padding-bottom: 30px;
+}
+.pricing__item::before,
+.pricing__item--not::before {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 13px;
+}
+.pricing__item::before {
+    content: "";
+    background-image: url("../assets/Checkmark-1.svg");
+}
+.pricing__item--not::before {
+    content: "";
+    background-image: url("../assets/Close.svg");
+}
+
